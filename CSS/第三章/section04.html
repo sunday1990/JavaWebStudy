@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>后代选择器</title>
+	<style type="text/css">
+	span{
+		color: blue;
+	}	
+	/*后代*/
+	div p span{
+		color: red;
+	}
+
+	</style>
+</head>
+<body>
+<div>一代<p>二代<span>三代</span></p> </div>
+<span>一层一代</span>
+<span>也是一层一代</span>
+</body>
+</html>

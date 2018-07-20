@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>并集选择器</title>
+	<style type="text/css">
+		p{
+			font: 50px;
+		}
+		p.c{
+			text-decoration: underline;
+			background-color: green;
+		}
+		.c{
+			color: red;
+		}
+		/*并集*/
+		p,h1,.c,#d1{
+			background-color: gray;
+		}
+
+	</style>
+</head>
+<body>
+<p id="p1" class="c">p1</p>
+<p id="p2">p2</p>
+<p id="p3">p3</p>
+
+<h1 id="h1" class="c">h1</h1>
+<h1 id="h2">h2</h1>
+<h1 id="h3">h3</h1>
+
+<div id="d1">d1</div>
+
+</body>
+</html>
